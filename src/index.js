@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
+
 import Layout from './pages/Layout';
 import Home from './pages/Home';
 import Aboutus from './pages/aboutus';
@@ -43,7 +44,7 @@ function App() {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-   <BrowserRouter>
+   <HashRouter>
       <App />
-   </BrowserRouter>
+   </HashRouter>
 );
