@@ -44,7 +44,7 @@ function App() {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-   <BrowserRouter basename="/Textile-webiste">
+  <HashRouter>
     <App />
-  </BrowserRouter>
+  </HashRouter>
 );
