@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './styles.css';
+// import './styles.css';
 
 import aboutus2 from './images/aboutus2.jpg';
 import fd1 from './images/fd1.jpg';

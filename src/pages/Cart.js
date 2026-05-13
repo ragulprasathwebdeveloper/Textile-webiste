@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import './ShopCart.css';
+// import './ShopCart.css';
 import { Link } from "react-router-dom";
 
 import leftarrowwhite from './images/leftarrowwhite.png';

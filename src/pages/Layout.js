@@ -7,8 +7,8 @@ import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { LuAlarmClock } from "react-icons/lu";
 import { FaSearch } from "react-icons/fa";
-import theadicon from './images/theadicon.png';
-import './styles.css';
+// import theadicon from './images/theadicon.png';
+// import './styles.css';
 
 const Layout = () => {
   return (
@@ -47,7 +47,7 @@ const Layout = () => {
         <Navbar bg="white" expand="lg" className="px-3 shadow-sm" style={{ fontFamily: "Montserrat, sans-serif" }}>
           <Container fluid>
             <Navbar.Brand as={Link} to="/" className="navbar-brand-text d-flex align-items-center">
-              <img src={theadicon} alt="Brand Logo" className="brand-logo me-2" />
+              {/* <img src={theadicon} alt="Brand Logo" className="brand-logo me-2" /> */}
               Textica
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

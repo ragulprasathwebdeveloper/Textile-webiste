@@ -1,7 +1,7 @@
 import React from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import './ShopCart.css';
+// import './ShopCart.css';
 
 import cartwhite2 from './images/cartwhite2.png';
 

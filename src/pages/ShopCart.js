@@ -10,7 +10,7 @@ import { faFacebookF, faTwitter, faYoutube, faInstagram } from '@fortawesome/fre
 import footerimg from './images/footerimg.jpeg';
 import company from './images/company.png';
 
-import './ShopCart.css';
+// import './ShopCart.css';
 
 const Shop = ({cart, setCart}) => {
     const [products] = useState(data);
