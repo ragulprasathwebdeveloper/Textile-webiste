@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes, BrowserRouter } from 'react-router-dom';
 
 import Layout from './pages/Layout';
 import Home from './pages/Home';
