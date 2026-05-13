@@ -2,6 +2,7 @@
   "name": "routerapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ragulprasathwebdeveloper.github.io/Textile-webiste/",
   "dependencies": {
     "@fontsource/playfair-display": "^5.1.1",
     "@fontsource/roboto": "^5.1.1",

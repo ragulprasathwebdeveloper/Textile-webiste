@@ -29,17 +29,12 @@
     }
   }
   
-  @media (max-width: 576px) {  /* Target extra small screens (phones) */
+  @media (max-width: 576px) { 
     .navbar-brand-text {
-      font-size: 18px;         /* Even smaller font size */
-      letter-spacing: 1px;     /* Further reduced letter spacing */
+      font-size: 18px;        
+      letter-spacing: 1px;     
     }
   }
-  
-
-
-  /* Styling the Navbar Toggle Button */
-
 
 .navbar-toggler {
   border: 2px solid #e76d08;  /* Color of the border */
@@ -342,15 +337,11 @@
 }
 
 .scroll1 {
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0%;
+  animation: appear 1s linear;
 }
 
 .scroll2 {
-  animation: appear1 linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 50%;
+  animation: appear1 1s linear;
 }
 
 
@@ -1074,9 +1065,7 @@
 }
 
 .scroll5 {
-  animation: appear5 linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 46%;
+  animation: appear5 1s linear;
 }
 
 @keyframes fadeIn {
@@ -1126,15 +1115,11 @@
 /* Apply fadeRight to the first content */
 .fade-right {
   animation: fadeRight 1s ease-out forwards;
-  animation-timeline: view();
-  animation-range: entry 0% cover 46%;
 }
 
 /* Apply fadeLeft to the second content */
 .fade-left {
   animation: fadeLeft 1s ease-out forwards;
-  animation-timeline: view();
-  animation-range: entry 0% cover 46%;
 }
 
 
@@ -1172,45 +1157,33 @@
   }
 }
 
-/* Classes for applying animations */
 .fade-right2 {
-  animation: fadeRight 1s ease-out forwards;
-  animation-timeline: view();
-  animation-range: entry 0% cover 50%;
+  animation: fadeRight2 1s ease-out forwards;
 }
 
 .fade-left2 {
-  animation: fadeLeft 1s ease-out forwards;
-  animation-timeline: view();
-  animation-range: entry 0% cover 50%;
+  animation: fadeLeft2 1s ease-out forwards;
 }
 
 .fade-up2 {
   animation: fadeUp2 1s ease-out forwards;
-  animation-timeline: view();
-  animation-range: entry 0% cover 50%;
 }
 
 @keyframes appear6 {
   from{
     opacity: 0;
-    /* transform: translateX(-100px); */
     scale: 0.5;
   }
   to{
     opacity: 1;
-    /* transform: translateX(0px); */
     scale: 1;
   }
 }
 
 .scroll6 {
-  animation: appear5 linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 36%;
+  animation: appear6 1s linear;
 }
 
-/* Base styles for larger screens */
 .center-content {
   display: flex;
   justify-content: center;
